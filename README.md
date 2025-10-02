@@ -1,8 +1,6 @@
 
 # Deploy Application using Auto Scaling Group
 
-> This README is based on the uploaded guide `Deploy application using autoscalling group.pdf`. 
-
 ## Project summary
 This project demonstrates how to deploy a simple web application on AWS using an **Application Load Balancer (ALB)** and an **Auto Scaling Group (ASG)**. It includes steps to create the target group, ALB, Launch Template (with user-data bootstrap), ASG configuration, and optional SNS notifications for lifecycle events.
 
