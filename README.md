@@ -54,7 +54,7 @@ bash
 yum update -y
 yum install -y nginx
 cat > /usr/share/nginx/html/index.html <<EOF
-<html><body><h1>Deployed via Auto Scaling Group</h1></body></html>
+<html><body><h1>Project don by Mohammad Arif. !hey this is my project on ec2 using ASG</h1></body></html>
 EOF
 systemctl enable nginx
 systemctl start nginx
