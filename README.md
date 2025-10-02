@@ -5,7 +5,7 @@
 
 ---
 
-## `README.md` (paste this into your GitHub repo)
+
 # Deploy Application using Auto Scaling Group
 
 > This README is based on the uploaded guide `Deploy application using autoscalling group.pdf`. 
@@ -16,7 +16,7 @@ This project demonstrates how to deploy a simple web application on AWS using an
 ---
 
 ## 📑 Project Report
-👉 [Click here to view/download the full PDF][[[(https://drive.google.com/your-public-share-link)]](https://drive.google.com/file/d/1D2aWxYENuburDxGCn5jcYsyxSChBVlbs/view)](https://drive.google.com/file/d/1EttWhE3w-DLWnlGAiARdfLD67xl3Tfgq/view)
+👉 [Click here to view/download the full PDF](https://drive.google.com/file/d/1EttWhE3w-DLWnlGAiARdfLD67xl3Tfgq/view)
 
 ---
 ---
