@@ -1,11 +1,4 @@
 
-
----
-
-
----
-
-
 # Deploy Application using Auto Scaling Group
 
 > This README is based on the uploaded guide `Deploy application using autoscalling group.pdf`. 
