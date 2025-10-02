@@ -12,8 +12,6 @@ This project demonstrates how to deploy a simple web application on AWS using an
 👉 [Click here to view/download the full PDF](https://drive.google.com/file/d/1EttWhE3w-DLWnlGAiARdfLD67xl3Tfgq/view)
 
 ---
----
-
 ## Table of contents
 - [Step-by-step deployment](#step-by-step-deployment)
   - [1. Create Target Group](#1-create-target-group)
@@ -22,11 +20,6 @@ This project demonstrates how to deploy a simple web application on AWS using an
   - [4. Create Auto Scaling Group](#4-create-auto-scaling-group)
   - [5. SNS notifications (optional)](#5-sns-notifications-optional)
 - [Verify & test](#verify--test)
-
-
----
-
-
 ---
 
 ## Architecture
@@ -56,10 +49,9 @@ This project demonstrates how to deploy a simple web application on AWS using an
 1. EC2 → Launch Templates → Create Launch Template.
 2. Select AMI, instance type, key pair, IAM role (recommended), and security group.
 3. Add **User data** (bootstrap script) to install and start the app. Example:
+
 ````markdown
-
-
-```bash
+bash
 #!/bin/bash
 yum update -y
 yum install -y nginx
@@ -98,20 +90,3 @@ systemctl start nginx
 * Simulate load or change ASG desired capacity to test scale-out/scale-in behavior.
 * Confirm SNS notifications arrive if configured.
 
----
-
-
-
-
----
-
-
-
-```
-
----
-
-
-
-Which one do you want next? (No extra scans — this README uses only the recent PDF.)
-```
